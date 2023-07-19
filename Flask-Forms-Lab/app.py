@@ -11,7 +11,6 @@ app = Flask(  # Create a flask app
 username = "siwarha"
 password = "123"
 facebook_friends=["celine","joelle","Avigail", "George", "Fouad", "Gi"]
-username={"celine":"123","maya":"345"}
 
 
 @app.route('/',methods=['GET','POST'])  # '/' for the default page
